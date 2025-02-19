@@ -14,12 +14,13 @@ Para verificar si los tienes instalados, ejecuta en la terminal:
 node -v
 npm -v
 
-🛠 Instalación
+## 🛠 Instalación
 Clona el repositorio y entra en la carpeta del proyecto:
 
 git clone https://github.com/Alexis12vloq/simplifud.git
 -- cd simplifud
-Luego, instala las dependencias:
+
+## Luego, instala las dependencias:
 
 npm install
 # o con yarn:
@@ -27,7 +28,7 @@ npm install
 # o con pnpm:
 -- pnpm install
 
-🎯 Cómo ejecutar el proyecto en modo desarrollo
+## 🎯 Cómo ejecutar el proyecto en modo desarrollo
 Para iniciar el servidor de desarrollo, usa:
 
 npm run dev
@@ -37,7 +38,7 @@ npm run dev
 -- pnpm dev
 Esto levantará la aplicación en http://localhost:3000. Abre tu navegador y visita esa URL para ver la app en acción.
 
-⚡ Compilar el proyecto para producción
+##⚡ Compilar el proyecto para producción
 Si quieres generar una versión optimizada para producción, ejecuta:
 
 npm run build
