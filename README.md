@@ -1,40 +1,54 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Simplifud  
 
-## Getting Started
+Este es un proyecto creado con [Next.js](https://nextjs.org), basado en [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+## 📌 Requisitos previos  
+Antes de empezar, asegúrate de tener instalado lo siguiente:
 
-```bash
+- **Node.js** (versión 16 o superior) → [Descargar Node.js](https://nodejs.org/)
+- **npm**, **yarn** o **pnpm** (cualquiera de ellos)
+
+Para verificar si los tienes instalados, ejecuta en la terminal:
+
+```sh
+node -v
+npm -v
+
+🛠 Instalación
+Clona el repositorio y entra en la carpeta del proyecto:
+
+git clone https://github.com/Alexis12vloq/simplifud.git
+-- cd simplifud
+Luego, instala las dependencias:
+
+npm install
+# o con yarn:
+-- yarn install
+# o con pnpm:
+-- pnpm install
+
+🎯 Cómo ejecutar el proyecto en modo desarrollo
+Para iniciar el servidor de desarrollo, usa:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# o con yarn:
+-- yarn dev
+# o con pnpm:
+-- pnpm dev
+Esto levantará la aplicación en http://localhost:3000. Abre tu navegador y visita esa URL para ver la app en acción.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚡ Compilar el proyecto para producción
+Si quieres generar una versión optimizada para producción, ejecuta:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run build
+# o con yarn:
+-- yarn build
+# o con pnpm:
+-- pnpm build
+Después de construir, puedes ejecutar el servidor de producción con:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# simplifud
->>>>>>> e833a8b271ea75763055a2860e1c744770b98675
+npm run start
+# o con yarn:
+-- yarn start
+# o con pnpm:
+-- pnpm start
